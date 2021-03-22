@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "CVCalendar",
-    platforms: [.iOS("8.0")],
+    platforms: [.iOS(.v13)],
     products: [
         .library(name: "CVCalendar", targets: ["CVCalendar"]),
     ],
